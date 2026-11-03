@@ -5,6 +5,18 @@ balance of minority-class ranking (PR-AUC), calibration and model size than
 LightGBM, logistic regression and a parameter-matched MLP as the positive class
 becomes rarer?  This repository runs that experiment end to end on a laptop CPU.
 
+## Documentation
+
+| Doc | Read it for |
+|---|---|
+| [docs/00-what-we-did.md](docs/00-what-we-did.md) | the build log, step by step, including dead ends |
+| [docs/01-problem-and-design.md](docs/01-problem-and-design.md) | research questions, datasets, protocol, metrics |
+| [docs/02-code-walkthrough.md](docs/02-code-walkthrough.md) | every module explained, how to extend |
+| [docs/03-how-to-run.md](docs/03-how-to-run.md) | setup, commands, outputs, tracing a number back |
+| [docs/04-results-and-interpretation.md](docs/04-results-and-interpretation.md) | findings, what they mean, protocol weaknesses |
+| [docs/05-lessons-and-gotchas.md](docs/05-lessons-and-gotchas.md) | errors we hit and their fixes |
+| [docs/06-learn-it-yourself.md](docs/06-learn-it-yourself.md) | a four-week study path with exercises |
+
 ## Setup (macOS)
 
 ```bash
