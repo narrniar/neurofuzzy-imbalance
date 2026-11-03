@@ -1,0 +1,23 @@
+setting,model,variant,pr_auc,brier,ece,n_parameters,n_seeds
+bank_marketing:0.01,tsk,base,0.032 ± 0.000,0.2147 ± 0.0000,0.4521 ± 0.0000,756,1
+bank_marketing:0.01,tsk,mf=fixed,0.042 ± 0.000,0.2231 ± 0.0000,0.4613 ± 0.0000,756,1
+bank_marketing:0.01,tsk,rules=4,0.032 ± 0.000,0.2147 ± 0.0000,0.4521 ± 0.0000,756,1
+bank_marketing:0.01,tsk,rules=8,0.026 ± 0.000,0.2184 ± 0.0000,0.4561 ± 0.0000,1512,1
+bank_marketing:0.01,tsk,rules=16,0.026 ± 0.000,0.1529 ± 0.0000,0.3749 ± 0.0000,3024,1
+bank_marketing:0.01,tsk,ur=off,0.032 ± 0.000,0.2147 ± 0.0000,0.4521 ± 0.0000,756,1
+bank_marketing:0.01,tsk,ur=on,0.034 ± 0.000,0.2144 ± 0.0000,0.4518 ± 0.0000,756,1
+bank_marketing:0.01,logreg,features=top10,0.050 ± 0.000,0.0098 ± 0.0000,0.0028 ± 0.0000,11,1
+bank_marketing:0.01,lgbm,features=top10,0.055 ± 0.000,0.0098 ± 0.0000,0.0070 ± 0.0000,693,1
+bank_marketing:0.01,mlp,features=top10,0.060 ± 0.000,0.0098 ± 0.0000,0.0048 ± 0.0000,493,1
+bank_marketing:0.01,tsk,features=top10,0.012 ± 0.000,0.1759 ± 0.0000,0.3979 ± 0.0000,132,1
+credit_default:0.05,tsk,base,0.061 ± 0.000,0.2364 ± 0.0000,0.4330 ± 0.0000,816,1
+credit_default:0.05,tsk,mf=fixed,0.061 ± 0.000,0.2380 ± 0.0000,0.4349 ± 0.0000,816,1
+credit_default:0.05,tsk,rules=4,0.046 ± 0.000,0.2191 ± 0.0000,0.4078 ± 0.0000,408,1
+credit_default:0.05,tsk,rules=8,0.061 ± 0.000,0.2364 ± 0.0000,0.4330 ± 0.0000,816,1
+credit_default:0.05,tsk,rules=16,0.070 ± 0.000,0.2344 ± 0.0000,0.4314 ± 0.0000,1632,1
+credit_default:0.05,tsk,ur=off,0.060 ± 0.000,0.2361 ± 0.0000,0.4326 ± 0.0000,816,1
+credit_default:0.05,tsk,ur=on,0.061 ± 0.000,0.2364 ± 0.0000,0.4330 ± 0.0000,816,1
+credit_default:0.05,logreg,features=top10,0.213 ± 0.000,0.0444 ± 0.0000,0.0201 ± 0.0000,11,1
+credit_default:0.05,lgbm,features=top10,0.210 ± 0.000,0.0435 ± 0.0000,0.0108 ± 0.0000,567,1
+credit_default:0.05,mlp,features=top10,0.161 ± 0.000,0.0450 ± 0.0000,0.0198 ± 0.0000,121,1
+credit_default:0.05,tsk,features=top10,0.034 ± 0.000,0.2451 ± 0.0000,0.4345 ± 0.0000,264,1

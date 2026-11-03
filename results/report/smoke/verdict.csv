@@ -1,0 +1,5 @@
+setting,class_weight,best_baseline,tsk_pr_auc_gap,within_0.02,tsk_better_calibrated_raw,tsk_better_calibrated_after_platt,tsk_smaller_than_best_baseline,verdict
+credit_default:0.05,False,mlp,-0.1639,False,False,False,False,contradicts
+credit_default:0.05,True,mlp,-0.0476,False,False,False,False,contradicts
+bank_marketing:0.01,False,mlp,-0.0453,False,False,False,True,contradicts
+bank_marketing:0.01,True,mlp,-0.0309,False,False,False,True,qualifies

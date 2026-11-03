@@ -1,0 +1,19 @@
+# Reduced protocol for a first pass on a laptop: same 7 settings and 4 models,
+# 5 configurations instead of 20, 3 seeds instead of 5, shorter training.
+name: quick
+seeds: [0, 1, 2]
+n_configs: 5
+max_epochs: 40
+patience: 6
+threads: 4
+settings:
+  - credit_default:natural
+  - credit_default:0.05
+  - credit_default:0.01
+  - bank_marketing:natural
+  - bank_marketing:0.05
+  - bank_marketing:0.01
+  - fraud:natural
+models: [logreg, lgbm, mlp, tsk]
+weighting: [false, true]
+ablations: true

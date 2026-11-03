@@ -1,0 +1,11 @@
+# Pipeline check only: one configuration, one seed, tiny training budget.
+name: smoke
+seeds: [0]
+n_configs: 1
+max_epochs: 3
+patience: 2
+threads: 4
+settings: [credit_default:0.05, bank_marketing:0.01]
+models: [logreg, lgbm, mlp, tsk]
+weighting: [false, true]
+ablations: true

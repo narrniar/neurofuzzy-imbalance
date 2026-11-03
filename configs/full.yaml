@@ -1,0 +1,19 @@
+# Full protocol from the proposal: 7 settings x 4 models x 2 weightings,
+# 20 random configurations each, best retrained with 5 seeds, TSK ablations.
+name: full
+seeds: [0, 1, 2, 3, 4]
+n_configs: 20
+max_epochs: 100
+patience: 10
+threads: 4
+settings:
+  - credit_default:natural
+  - credit_default:0.05
+  - credit_default:0.01
+  - bank_marketing:natural
+  - bank_marketing:0.05
+  - bank_marketing:0.01
+  - fraud:natural
+models: [logreg, lgbm, mlp, tsk]
+weighting: [false, true]
+ablations: true

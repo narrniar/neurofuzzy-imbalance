@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nfi"
+version = "0.1.0"
+description = "Neuro-fuzzy (HTSK) vs standard tabular models under class imbalance"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=2", "pandas>=2.2", "scikit-learn>=1.6", "lightgbm>=4.7",
+  "torch>=2.5", "matplotlib>=3.9", "pyyaml", "xlrd>=2.0", "scipy", "tabulate",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

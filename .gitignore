@@ -1,0 +1,9 @@
+.venv/
+data/raw/
+results/runs/
+results/preds/
+results/splits/
+__pycache__/
+*.egg-info/
+results/old/
+results/logs/
