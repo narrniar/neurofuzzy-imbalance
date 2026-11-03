@@ -1,0 +1,15 @@
+setting,class_weight,best_baseline,tsk_pr_auc_gap,within_0.02,tsk_better_calibrated_raw,tsk_better_calibrated_after_platt,tsk_smaller_than_best_baseline,verdict
+credit_default:natural,False,lgbm,-0.0101,True,False,False,False,qualifies
+credit_default:natural,True,lgbm,0.0031,True,False,False,True,supports
+credit_default:0.05,False,lgbm,-0.0026,True,True,False,True,supports
+credit_default:0.05,True,logreg,0.0265,True,False,True,False,qualifies
+credit_default:0.01,False,lgbm,-0.0079,True,True,False,False,supports
+credit_default:0.01,True,lgbm,0.0014,True,False,False,True,supports
+bank_marketing:natural,False,lgbm,-0.0217,False,False,False,False,qualifies
+bank_marketing:natural,True,mlp,-0.0059,True,False,True,True,supports
+bank_marketing:0.05,False,lgbm,-0.0134,True,False,False,True,supports
+bank_marketing:0.05,True,mlp,-0.0052,True,False,False,False,qualifies
+bank_marketing:0.01,False,lgbm,-0.0137,True,False,False,False,contradicts
+bank_marketing:0.01,True,logreg,-0.0005,True,False,False,False,qualifies
+fraud:natural,False,mlp,-0.0257,False,True,False,False,qualifies
+fraud:natural,True,logreg,-0.0164,True,False,False,False,qualifies
